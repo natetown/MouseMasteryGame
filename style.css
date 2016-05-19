@@ -1,0 +1,44 @@
+    body{
+	background-color:#000000;
+        }
+		
+	.add{
+            width: 15px;
+            height: 15px;
+            background: aqua;
+    }   
+	
+	.start{
+            border: 2px solid;
+            padding: 10px 40px; 
+            background-color: #CC0000;
+            width: 300px;
+            border-radius: 25px;
+            color:white;
+            text-align:center;
+            font-size: 40px;
+            margin: 0 auto;
+            
+	
+	}
+        
+        * {
+            cursor:pointer;
+        }
+        li{
+            
+            color:aqua;
+            font-size:2em;
+            list-style:none;
+            text-align: center;
+
+            
+        }
+        
+        p{
+            
+           color:white;
+            font-size:2em;
+            list-style:none;
+            text-align: center; 
+        }
