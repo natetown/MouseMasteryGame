@@ -1,21 +1,4 @@
-<!DOCTYPE HTML>
-
-<?php
-header('Content-Type: text/xml');
-echo '<?xml version="1.0 encoding="UTF-8 standalone="yes" ?>';
-
-echo '<response>';
-$gamerAlias = $_GET['gamerAlias'];
-$gamerAliasArray = array('Nathan', 'Bacon');
-
-if(in_array($gamerAlias, $gamerAliasArray))
-echo 'gamerAlias = Nathan or Bacon';
-	
-echo '</response>';
-
-?>
 <html>
-
 
 <head>
     <title>Game of Clicks</title>
@@ -27,7 +10,7 @@ echo '</response>';
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body onload="process()">
+<body>
 
 
 
@@ -43,15 +26,12 @@ echo '</response>';
     <div  class="start" onclick="datGameDoe()">Play</div>
 
 <p>
-                Instructions: <br><br>
-          
-                1. Enter your Gamer Alias
-					<input type ="text" id="userInput"></input>
+                Instructions: 
+
                 <br>
-                2. Click the Play button.
+                1. Click the Play button.
                 <br>
-                3. Click on the newly generated squares as quickly as possible within 60 seconds.
-				
+                2. Click on the newly generated squares as quickly as possible within 60 seconds.
 </p>
 </body>
 </html>
